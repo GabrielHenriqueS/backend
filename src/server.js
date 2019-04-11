@@ -14,7 +14,7 @@ io.on('connection', socket => {
     })
 });
 
-mongoose.connect('mongodb://192.168.99.100:27017/omnistack', {
+mongoose.connect('mongodb+srv://root:123@mongodb-9txyo.mongodb.net/omnistack?retryWrites=true', {
     useNewUrlParser: true
 });
 
